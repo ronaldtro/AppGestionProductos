@@ -21,7 +21,7 @@ function App() {
 
       <BrowserRouter>
           <Routes>
-            <Route path="app-gestion-productos-iq36.vercel.app/login" element={<Login />} >
+            <Route path="/login" element={<Login />} >
             </Route>
             <Route path="/clientes/:id" element={<Layout />} >
               <Route index element={<Inicio />} />
