@@ -1,0 +1,154 @@
+{
+  "customers": [
+    {
+      "nombre": "vodka",
+      "direccion": "m2c3",
+      "email": "roni@hotmail.com",
+      "telefono": "123123",
+      "password": "12312312",
+      "id": 1
+    },
+    {
+      "nombre": "Ana Sagrario",
+      "direccion": "m2c3",
+      "email": "ronald.2415@hotmail.com",
+      "telefono": "121",
+      "password": "123dasd",
+      "id": 2
+    },
+    {
+      "nombre": "Ana Sagrario",
+      "direccion": "m2c3",
+      "email": "ronald.2415@hotmail.com",
+      "telefono": "121",
+      "password": "123dasd",
+      "id": 3
+    },
+    {
+      "nombre": "vodka",
+      "direccion": "m2c3",
+      "email": "heidy@hot.com",
+      "telefono": "123",
+      "password": "qweqw",
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "codigo": "111",
+      "nombre": "Sandia",
+      "precio": 1000,
+      "id": 1
+    },
+    {
+      "codigo": "123",
+      "nombre": "Chocolo",
+      "precio": 8,
+      "id": 2
+    },
+    {
+      "codigo": "12345",
+      "nombre": "Pera",
+      "precio": 23,
+      "id": 3
+    },
+    {
+      "codigo": "001",
+      "nombre": "Maiz",
+      "precio": 500,
+      "id": 4
+    }
+  ],
+  "pedidos": [
+    {
+      "newProducto": {
+        "codigo": "111",
+        "nombre": "Sandia",
+        "precio": 1000,
+        "id": 1,
+        "cantidad": "2"
+      },
+      "usuario": {
+        "nombre": "vodka",
+        "direccion": "m2c3",
+        "email": "roni@hotmail.com",
+        "telefono": "123123",
+        "password": "12312312",
+        "id": 1
+      },
+      "id": 1
+    },
+    {
+      "newProducto": {
+        "codigo": "123",
+        "nombre": "Chocolo",
+        "precio": 8,
+        "id": 2,
+        "cantidad": "3"
+      },
+      "usuario": {
+        "nombre": "vodka",
+        "direccion": "m2c3",
+        "email": "roni@hotmail.com",
+        "telefono": "123123",
+        "password": "12312312",
+        "id": 1
+      },
+      "id": 2
+    },
+    {
+      "newProducto": {
+        "codigo": "001",
+        "nombre": "Maiz",
+        "precio": 500,
+        "id": 4,
+        "cantidad": "1"
+      },
+      "usuario": {
+        "nombre": "vodka",
+        "direccion": "m2c3",
+        "email": "roni@hotmail.com",
+        "telefono": "123123",
+        "password": "12312312",
+        "id": 1
+      },
+      "id": 3
+    },
+    {
+      "newProducto": {
+        "codigo": "111",
+        "nombre": "Sandia",
+        "precio": 1000,
+        "id": 1,
+        "cantidad": "1"
+      },
+      "usuario": {
+        "nombre": "Ana Sagrario",
+        "direccion": "m2c3",
+        "email": "ronald.2415@hotmail.com",
+        "telefono": "121",
+        "password": "123dasd",
+        "id": 2
+      },
+      "id": 4
+    },
+    {
+      "newProducto": {
+        "codigo": "12345",
+        "nombre": "Pera",
+        "precio": 23,
+        "id": 3,
+        "cantidad": "1"
+      },
+      "usuario": {
+        "nombre": "Ana Sagrario",
+        "direccion": "m2c3",
+        "email": "ronald.2415@hotmail.com",
+        "telefono": "121",
+        "password": "123dasd",
+        "id": 2
+      },
+      "id": 5
+    }
+  ]
+}
