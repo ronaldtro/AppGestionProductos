@@ -22,7 +22,7 @@ const Login = () => {
         const {email, password} = values
 
         try {
-            const url = 'https://backendlgestorlproductos.herokuapp.com/customers'
+            const url = 'http://localhost:4000/customers'
             const respuesta = await fetch(url)
             const resultado = await respuesta.json()
 
