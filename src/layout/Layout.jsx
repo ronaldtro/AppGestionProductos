@@ -16,7 +16,7 @@ function Layout(){
                     <Link className={`${actualUrl == '/clientes/producto' ? 'text-blue-300' : 'text-white'} text-2xl block mt-2 `} to={`/clientes/${id}/products/show`}>Ver Productos</Link>
                     <Link className={`${actualUrl == '/clientes/producto' ? 'text-blue-300' : 'text-white'} text-2xl block mt-2 `} to={`/clientes/${id}/pedidos/add`}>Crear Pedido</Link>
                     <Link className={`${actualUrl == '/clientes/producto' ? 'text-blue-300' : 'text-white'} text-2xl block mt-2 `} to={`/clientes/${id}/pedidos/show`}>Ver Pedidos</Link>
-                    <Link className={`${actualUrl == '/clientes/producto' ? 'text-blue-300' : 'text-white'} text-2xl block mt-2 `} to={`/salir`}>Salir</Link>
+                    <Link className={`${actualUrl == '/clientes/producto' ? 'text-blue-300' : 'text-white'} text-2xl block mt-2 `} to={`/login`}>Salir</Link>
                 </nav>
             </div>
             <div className='md:w-3/4 p-10 md:h-screen overflow-scroll'>
