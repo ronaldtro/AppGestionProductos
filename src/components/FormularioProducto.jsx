@@ -22,7 +22,7 @@ const FormularioProducto = ({ producto, cargando }) => {
 
             if (producto.id) {
                 //Editando producto
-                const url = `http://localhost:4000/products/${producto.id}`
+                const url = `https://backendlgestorlproductos.herokuapp.com/products/${producto.id}`
                 respuesta = await fetch(url, {
                     method: 'PUT',
                     body: JSON.stringify(values),
@@ -33,7 +33,7 @@ const FormularioProducto = ({ producto, cargando }) => {
 
             } else {
                 //Agregando nuevo producto
-                const url = 'http://localhost:4000/products'
+                const url = 'https://backendlgestorlproductos.herokuapp.com/products'
 
                 respuesta = await fetch(url, {
                     method: 'POST',

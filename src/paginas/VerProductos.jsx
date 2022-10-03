@@ -12,7 +12,7 @@ function VerProductos(){
 
         const obtenerProductos = async () => {
             try {
-                const url = 'http://localhost:4000/products'
+                const url = 'https://backendlgestorlproductos.herokuapp.com/products'
                 const respuesta = await fetch(url)
                 const resultado = await respuesta.json()
                 
@@ -30,7 +30,7 @@ function VerProductos(){
 
         if(confirmar){
             try {
-                const url = `http://localhost:4000/clientes/${id}`
+                const url = `https://backendlgestorlproductos.herokuapp.com/clientes/${id}`
                 const respuesta = await fetch(url, {method: 'DELETE'})
                 await respuesta.json()
                 const clientesArray = clientes.filter(cliente => cliente.id !== id)

@@ -16,7 +16,7 @@ function VerPedidos(){
 
         const obtenerPedidos = async () => {
             try {
-                const url = `http://localhost:4000/orders`
+                const url = `https://backendlgestorlproductos.herokuapp.com/orders`
                 const respuesta = await fetch(url)
                 const resultado = await respuesta.json()
 

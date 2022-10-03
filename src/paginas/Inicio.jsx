@@ -10,7 +10,7 @@ function Inicio(){
     useEffect(() => {
         const obtenerClientes = async () => {
             try {
-                const url = 'http://localhost:4000/customers'
+                const url = 'https://backendlgestorlproductos.herokuapp.com/customers'
                 const respuesta = await fetch(url)
                 const resultado = await respuesta.json()
                 

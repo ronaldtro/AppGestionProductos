@@ -12,7 +12,7 @@ const VerCliente = () => {
     useEffect(() => {
         const obtenerClienteApi = async () => {
             try {
-                const url = `http://localhost:4000/customers/${id}`
+                const url = `https://backendlgestorlproductos.herokuapp.com/customers/${id}`
                 const respuesta = await fetch(url)
                 const resultado = await respuesta.json()
                 setCliente(resultado)

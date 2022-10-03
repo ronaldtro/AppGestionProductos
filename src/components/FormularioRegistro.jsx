@@ -21,7 +21,7 @@ const FormularioRegistro = ({ cargando }) => {
 
         try {
 
-            const url = 'http://localhost:4000/customers'
+            const url = 'https://backendlgestorlproductos.herokuapp.com/customers'
 
             await fetch(url, {
                 method: 'POST',

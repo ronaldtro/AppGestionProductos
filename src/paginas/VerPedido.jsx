@@ -16,7 +16,7 @@ const VerPedido = () => {
 
 
             try {
-                const url = `http://localhost:4000/products/${iden}`
+                const url = `https://backendlgestorlproductos.herokuapp.com/products/${iden}`
                 const respuesta = await fetch(url)
                 const resultado = await respuesta.json()
 

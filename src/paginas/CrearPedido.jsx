@@ -11,7 +11,7 @@ function CrearPedido(){
 
         const obtenerPedidos = async () => {
             try {
-                const url = 'http://localhost:4000/products'
+                const url = 'https://backendlgestorlproductos.herokuapp.com/products'
                 const respuesta = await fetch(url)
                 const resultado = await respuesta.json()
                 

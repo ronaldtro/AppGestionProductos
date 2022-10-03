@@ -16,7 +16,7 @@ const Producto = ({ producto }) => {
             alert('Cantidad no valida')
         }else{
             try {
-                const url = 'http://localhost:4000/orders'
+                const url = 'https://backendlgestorlproductos.herokuapp.com/orders'
     
                 await fetch(url, {
                     method: 'POST',

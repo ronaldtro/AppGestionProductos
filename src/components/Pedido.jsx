@@ -18,7 +18,7 @@ const Pedido = ({ pedido }) => {
         try {
             const obtenerProducto = async () => {
                 
-                    const url = `http://localhost:4000/products/${producto}`
+                    const url = `https://backendlgestorlproductos.herokuapp.com/products/${producto}`
                     const respuesta = await fetch(url)
                     const resultado = await respuesta.json()
 
@@ -40,7 +40,7 @@ const Pedido = ({ pedido }) => {
         try {
             const obtenerCliente = async () => {
                 
-                    const url = `http://localhost:4000/customers/${cliente}`
+                    const url = `https://backendlgestorlproductos.herokuapp.com/customers/${cliente}`
                     const respuesta = await fetch(url)
                     const resultado = await respuesta.json()
     
