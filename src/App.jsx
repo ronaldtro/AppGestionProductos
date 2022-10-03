@@ -16,8 +16,8 @@ function App() {
 
 
   console.log(import.meta.env)
-  navigate('/login')
-  
+
+
   return (
 
       <BrowserRouter>
