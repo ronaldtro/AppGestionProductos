@@ -31,7 +31,8 @@ function App() {
               <Route path="pedidos/add" element={<CrearPedido />} />
               <Route path="pedidos/show" element={<VerPedidos />} />
               <Route path="pedido/:iden" element={<VerPedido />} />
-              <Route path="salir" element={<Login />} />
+            </Route>
+            <Route path="/salir" element={<Login />} >
             </Route>
             <Route path="/clientes/ver/:id" element={<Layout />} >
               <Route index element={<VerCliente />} />
